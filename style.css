@@ -19,5 +19,8 @@
 
 }
 
-.author {
+.block.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
