@@ -1,0 +1,23 @@
+.my-body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.block {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote-card {
+    border: 1px solid black;
+
+}
+
+.author {
+}
