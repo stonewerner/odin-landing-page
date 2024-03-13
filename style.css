@@ -1,3 +1,19 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 350px;
+}
+
 .my-body {
     display: flex;
     flex-direction: column;
@@ -9,17 +25,76 @@
     flex-grow: 1;
 }
 
-.card-container {
+.block.one {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.quote-card {
-    border: 1px solid black;
+.right-half {
+    background-color: grey;
+    padding: 80px;
+}
 
+.card-title {
+    text-align: center;
+}
+
+.card-container, .caption-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.caption {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+    flex-shrink: 0;
+}
+
+
+.quote-card {
+    width: 400px;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+    flex-shrink: 0;
+}
+
+.author {
+    text-align: right;
 }
 
 .block.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call {
+    background-color: #3882F6;
+    padding: 20px;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
